@@ -1,0 +1,696 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "title": "India’s golden generation dazzles Chess Olympiad: ‘Magical…1983 moment’",
+      "genre": "Chess",
+      "writer": "Abhinav Jangid",
+      "description": "aag lagadi",
+      "image": "https://images.indianexpress.com/2024/09/chess-olympiad-2024-gukesh-pragg-vidit-arjun.jpg",
+      "url": "none",
+      "position": "latest10",
+      "blocks": [
+        {
+          "heading": "Block 1",
+          "paragraph": "fsdfdsfd",
+          "image": "Block 1"
+        },
+        {
+          "heading": "Block 2",
+          "paragraph": "dfsdf",
+          "image": "Block 2"
+        },
+        {
+          "heading": "Block 3",
+          "paragraph": "dsf",
+          "image": "Block 3"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsf",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "title": "How to burn your resume and build a new career",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/how-tofsdfsf",
+      "position": "latest10",
+      "id": 28,
+      "blocks": [
+        {
+          "heading": "dsfdfsd",
+          "paragraph": "fsdf",
+          "image": "fdsf"
+        },
+        {
+          "heading": "fdsfd",
+          "paragraph": "dsfsf",
+          "image": "dfs"
+        }
+      ]
+    },
+    {
+      "title": "UX/UI Mistakes Abhhinav Janid",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "id": 29,
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "",
+          "image": ""
+        },
+        {
+          "heading": "",
+          "paragraph": "",
+          "image": ""
+        }
+      ]
+    },
+    {
+      "title": "UX/UI Mistakes Abhhinav ",
+      "genre": "Carrer",
+      "writer": " The Medium Newsletter",
+      "description": "20 Great Examples of How You Can Ruin User Experience",
+      "image": "images/Enterprise-cover.webp",
+      "url": "/bad-ux-20-common-mistakes-in-user-experience",
+      "position": "important",
+      "id": 30,
+      "blocks": [
+        {
+          "heading": "Heading 1",
+          "paragraph": "dfdsfs",
+          "image": "fsdfds"
+        },
+        {
+          "heading": "dsfsdfds",
+          "paragraph": "fdsf",
+          "image": "dfsfsd"
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "title": "India’s golden generation dazzles Chess Olympiad: ‘Magical…1983 moment’",
+      "genre": "Chess",
+      "writer": "Abhinav Jangid",
+      "description": "aag lagadi",
+      "image": "https://images.indianexpress.com/2024/09/chess-olympiad-2024-gukesh-pragg-vidit-arjun.jpg",
+      "url": "none",
+      "position": "latest3",
+      "blocks": [
+        {
+          "heading": "Block 1",
+          "paragraph": "fdsfdsf",
+          "image": "Block 1"
+        },
+        {
+          "heading": "Block 2",
+          "paragraph": "fdsf",
+          "image": "Block 2"
+        },
+        {
+          "heading": "Block 3",
+          "paragraph": "fdf",
+          "image": "Block 3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+<aside class="sidebar">
+  <div class="logo"><h1 onclick="location.href='/'">TL</h1></div>
+
+  <nav>
+    <ul class="links-container">
+      <li class="link">
+        <a id="search-button">Search</a>
+      </li>
+      <form
+        action="/search"
+        method="get"
+        class="search-box"
+        id="search-box"
+        style="display: none"
+      >
+        <input
+          type="text"
+          name="q"
+          placeholder="Search"
+          class="sidebar-search-box"
+        />
+      </form>
+      <li class="link"><a href="/search?q=startups">Startups</a></li>
+      <li class="link"><a href="/search?q=ai">AI</a></li>
+      <li class="link"><a href="/search?q=apple">Apple</a></li>
+      <li class="link"><a href="/search?q=security">Security</a></li>
+      <li class="link"><a href="/search?q=events">Events</a></li>
+      <li class="link"><a href="/search">More</a></li>
+    </ul>
+  </nav>
+</aside>

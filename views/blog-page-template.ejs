@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %></title>
+    <link rel="stylesheet" href="../css/blog.css" />
+    <link rel="stylesheet" href="../css/general.css" />
+  </head>
+
+  <body>
+    <!-- Include header -->
+    <%- include('partials/header.ejs') %>
+
+    <!-- Main Content -->
+    <div class="root">
+      <aside>
+        <!-- Include sidebar -->
+        <%- include('partials/sidebar.ejs') %>
+      </aside>
+
+      <main class="main-content">
+        <div class="story-heading"><%= title %></div>
+        <div class="story-writer"><%= writer %></div>
+
+        <!-- Loop through the blocks array and render each block -->
+        <% blocks.forEach(function(block) { %>
+        <div class="block">
+          <% if (block.heading){ %>
+          <div class="block-heading"><%= block.heading %></div>
+          <% } %><% if (block.paragraph){ %>
+          <div class="block-detail"><%= block.paragraph %></div>
+          <% } %> <% if(block.image){ %>
+          <div class="paragraph-image">
+            <img src="<%= block.image %>" alt="Image" />
+          </div>
+          <% } %>
+        </div>
+        <% }); %>
+      </main>
+    </div>
+    <script src="../js/general.js"></script>
+  </body>
+</html>

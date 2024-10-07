@@ -1,0 +1,198 @@
+<!-- views/addBlog.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add New Blog</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/addBlog.css" />
+    <style>
+      .search-box {
+        width: 40%;
+        padding-left: 10px;
+        font-size: 16px;
+        letter-spacing: 1px;
+        height: 36px;
+        padding-right: 45px;
+        outline: none;
+        border-radius: 3px;
+        border: #dddddd 1px solid;
+        box-shadow: 0px 0px 2px gray;
+      }
+      .search-box::placeholder {
+        color: #aaaaaa;
+      }
+      .search-svg-search-ejs {
+        right: 20%;
+        top: 30px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <%- include("partials/header.ejs") %> <%- include("partials/sidebar.ejs") %>
+    <form
+      action="/editBlog"
+      method="get"
+      style="
+        display: flex;
+        justify-content: center;
+        padding: 15px 0;
+        position: relative;
+      "
+    >
+      <input
+        type="text"
+        name="query"
+        class="search-box"
+        placeholder="Search"
+        style="width: 61%; height: 28px"
+      />
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        x="0px"
+        y="0px"
+        viewBox="0 0 50 50"
+        class="search-svg search-svg-search-ejs"
+      >
+        <path
+          d="M 21 3 C 11.601563 3 4 10.601563 4 20 C 4 29.398438 11.601563 37 21 37 C 24.355469 37 27.460938 36.015625 30.09375 34.34375 L 42.375 46.625 L 46.625 42.375 L 34.5 30.28125 C 36.679688 27.421875 38 23.878906 38 20 C 38 10.601563 30.398438 3 21 3 Z M 21 7 C 28.199219 7 34 12.800781 34 20 C 34 27.199219 28.199219 33 21 33 C 13.800781 33 8 27.199219 8 20 C 8 12.800781 13.800781 7 21 7 Z"
+        ></path>
+      </svg>
+    </form>
+    <% if (query){ %>
+    <h1>Search Results for "<%= query %>"</h1>
+
+    <% if (results.length > 0) { %>
+    <ul>
+      <% results.forEach(function(blog) { %>
+      <li>
+        <a href="/editBlog?id=<%= blog.id %>"><%= blog.title %></a>
+        <p>Written by <%= blog.writer %></p>
+      </li>
+      <% }) %>
+    </ul>
+    <% } else { %>
+    <p>No results found for "<%= query %>". Try another search term.</p>
+    <% } %> <% } %> <% if (id) {%>
+    <form action="/edit-blog" method="POST" class="form">
+      <input type="hidden" value="<%= blog.id %>" name="id" />
+      <h1>Add New Blog</h1>
+      <div>
+        <label for="title">Title:</label>
+        <input
+          type="text"
+          id="title"
+          name="title"
+          value="<%=blog.title%>"
+          required
+        />
+      </div>
+      <div>
+        <label for="genre">Genre:</label>
+        <input
+          type="text"
+          id="genre"
+          name="genre"
+          value="<%=blog.genre%>"
+          required
+        />
+      </div>
+      <div>
+        <label for="writer">Writer:</label>
+        <input
+          type="text"
+          id="writer"
+          name="writer"
+          value="<%=blog.writer%>"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="description">Description:</label>
+        <input
+          type="text"
+          id="description"
+          name="description"
+          value="<%=blog.description%>"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="image">Image URL:</label>
+        <input type="text" name="image" value="<%=blog.image%>" />
+      </div>
+
+      <div>
+        <label for="link">Blog Link:</label>
+        <input
+          type="text"
+          id="link"
+          name="url"
+          value="<%=blog.url%>"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="position">Home Screen Position:</label>
+        <select
+          name="position"
+          id="position"
+          class="select"
+          value="<%=blog.position%>"
+        >
+          <option value="important">Important</option>
+          <option value="aside1">Aside 1</option>
+          <option value="aside2">Aside 2</option>
+          <option value="aside3">Aside 3</option>
+          <option value="aside4">Aside 4</option>
+          <option value="latest1">Latest Stories 1</option>
+          <option value="latest2">Latest Stories 2</option>
+          <option value="latest3">Latest Stories 3</option>
+          <option value="latest4">Latest Stories 4</option>
+          <option value="latest5">Latest Stories 5</option>
+          <option value="latest6">Latest Stories 6</option>
+          <option value="latest7">Latest Stories 7</option>
+          <option value="latest8">Latest Stories 8</option>
+          <option value="latest9">Latest Stories 9</option>
+          <option value="latest10">Latest Stories 10</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div id="blocksContainer">
+        <h2>Blog Blocks</h2>
+        <% let blockNumber = 1 %> <% blog.blocks.forEach(function(block) {%>
+        <div class="block">
+          <h2 class="blockNumber">Block <%= blockNumber %></h2>
+          <label for="blockHeading">Block Heading</label>
+          <input type="text" name="blockHeading" value="<%=block.heading %>" />
+
+          <label for="blockParagraph">Block Paragraph</label>
+          <textarea
+            name="blockParagraph"
+            value="<%=block.paragraph %>"
+          ></textarea>
+
+          <label for="blockImage">Block Image</label>
+          <input type="text" name="blockImage" value="<%=block.image %>" />
+        </div>
+        <% }) %>
+      </div>
+      <div class="buttons">
+        <button class="btn btn-primary" type="submit">Save Blog</button
+        ><button type="button" id="addBlockBtn" class="btn btn-secondary">
+          Add Another Block
+        </button>
+      </div>
+    </form>
+    <% }%>
+
+    <script src="js/general.js"></script>
+  </body>
+</html>

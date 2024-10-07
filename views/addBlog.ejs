@@ -1,0 +1,94 @@
+<!-- views/addBlog.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add New Blog</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/addBlog.css" />
+  </head>
+
+  <body>
+    <%- include("partials/header.ejs") %> <%- include("partials/sidebar.ejs") %>
+
+    <form action="/add-blog" method="POST" class="form">
+      <h1>Add New Blog</h1>
+      <div>
+        <label for="title">Title:</label>
+        <input type="text" id="title" name="title" required />
+      </div>
+      <div>
+        <label for="genre">Genre:</label>
+        <input type="text" id="genre" name="genre" required />
+      </div>
+      <div>
+        <label for="genre">Writer:</label>
+        <input type="text" id="writer" name="writer" required />
+      </div>
+
+      <div>
+        <label for="description">Description:</label>
+        <input type="text" id="description" name="description" required />
+      </div>
+
+      <div>
+        <label for="image">Image URL:</label>
+        <input type="text" name="image" />
+      </div>
+
+      <div>
+        <label for="link">Blog Link:</label>
+        <input type="text" id="link" name="url" required />
+      </div>
+
+      <div>
+        <label for="position">Home Screen Position:</label>
+        <select name="position" id="position" class="select">
+          <option value="important">Important</option>
+          <option value="aside1">Aside 1</option>
+          <option value="aside2">Aside 2</option>
+          <option value="aside3">Aside 3</option>
+          <option value="aside4">Aside 4</option>
+          <option value="latest1">Latest Stories 1</option>
+          <option value="latest2">Latest Stories 2</option>
+          <option value="latest3">Latest Stories 3</option>
+          <option value="latest4">Latest Stories 4</option>
+          <option value="latest5">Latest Stories 5</option>
+          <option value="latest6">Latest Stories 6</option>
+          <option value="latest7">Latest Stories 7</option>
+          <option value="latest8">Latest Stories 8</option>
+          <option value="latest9">Latest Stories 9</option>
+          <option value="latest10">Latest Stories 10</option>
+          <option value="other">Other</option>
+        </select>
+      </div>
+      <div id="blocksContainer">
+        <h2>Blog Blocks</h2>
+
+        <div class="block">
+          <h2 class="blockNumber">Block 1</h2>
+          <label for="blockHeading">Block Heading</label>
+          <input type="text" name="blockHeading" />
+
+          <label for="blockParagraph">Block Paragraph</label>
+          <textarea name="blockParagraph"></textarea>
+
+          <label for="blockImage">Block Image</label>
+          <input type="text" name="blockImage" />
+        </div>
+      </div>
+      <div class="buttons">
+        <button onclick="location.href='/update-story'" class="btn btn-primary">
+          Add Blog</button
+        ><button type="button" id="addBlockBtn" class="btn btn-secondary">
+          Add Another Block
+        </button>
+      </div>
+    </form>
+
+    <script src="js/general.js"></script>
+  </body>
+</html>
